@@ -1,2 +1,20 @@
-# Internet-Speed-Twitter-Bot
-A Python automation project that measures internet speed using Speedtest and automatically posts a message on Twitter when the speed falls below the promised ISP speed.
+# Internet Speed Twitter Bot
+
+This Python bot checks internet speed and tweets at the provider if the speed is lower than promised.
+
+## Features
+
+* Runs internet speed test
+* Gets download and upload speed
+* Logs into X (Twitter)
+* Posts a complaint tweet automatically
+
+## Tech
+
+Python
+Selenium
+
+## Run
+
+pip install selenium
+python main.py
